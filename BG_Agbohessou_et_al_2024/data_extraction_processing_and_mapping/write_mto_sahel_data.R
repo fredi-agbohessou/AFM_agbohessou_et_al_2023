@@ -130,6 +130,7 @@ for (var in unique(variables)){
 }
 
 # rain dataset from Imerg ------------------
+# extrat Imerg rain data using the link : https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGDF_06/summary?keywords=undefined
 for(yr in 2010:2021){
   nc=read.csv(paste0("0-data/climat/data_era5_renamed/imerg_sahel_rain_",yr,".csv"))  
   data2 = na.omit(nc)

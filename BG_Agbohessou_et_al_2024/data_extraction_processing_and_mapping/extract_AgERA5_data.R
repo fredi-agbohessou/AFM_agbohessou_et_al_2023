@@ -55,3 +55,5 @@ for (i in 2010:2020){
 end_time <- Sys.time()
 end_time - start_time
 
+#For precipitation we used Imerg data
+# extrat Imerg rain data using the link : https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGDF_06/summary?keywords=undefined
